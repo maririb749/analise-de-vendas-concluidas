@@ -61,8 +61,9 @@ public class Sale {
 
 	@Override
 	public String toString() {
-		return month + "/ " + year + ", " + saller + ", " + items + ", " + String.format("%.2f", total) + ", pm = "
-				+ String.format("%.2f", avaragePrice());
+		return saller + "- " 
+	             + "R$" +  " " 
+				+ String.format("%.2f", total); 
 
 	}
 
